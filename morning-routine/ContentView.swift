@@ -6,18 +6,30 @@
 //
 
 import SwiftUI
+import HealthKit
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    
+    private var healthStore: HealthStore?
+    
+    init() {
+        healthStore = HealthStore()
     }
-}
+    
+    var body: some View {
+        Text("I hate swift").padding()
+        
+            .onAppear{
+                if let healthStore = healthStore {
+                    healthStore.requestAuthorization {success in}
+                }
+            }
+        
+     
+                }
+            }
+                
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

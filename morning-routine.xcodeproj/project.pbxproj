@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F720B31290456C10033CD99 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F720B30290456C10033CD99 /* TimerView.swift */; };
 		6F8FA5C428FF8B2200C614F4 /* morning_routineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA5C328FF8B2200C614F4 /* morning_routineApp.swift */; };
 		6F8FA5C628FF8B2200C614F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA5C528FF8B2200C614F4 /* ContentView.swift */; };
 		6F8FA5C828FF8B2700C614F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FA5C728FF8B2700C614F4 /* Assets.xcassets */; };
@@ -22,6 +23,8 @@
 		6F8FA5FD28FF8B2900C614F4 /* morning_routine_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA5FC28FF8B2900C614F4 /* morning_routine_Watch_AppTests.swift */; };
 		6F8FA60728FF8B2900C614F4 /* morning_routine_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA60628FF8B2900C614F4 /* morning_routine_Watch_AppUITests.swift */; };
 		6F8FA60928FF8B2900C614F4 /* morning_routine_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA60828FF8B2900C614F4 /* morning_routine_Watch_AppUITestsLaunchTests.swift */; };
+		6F8FA62128FF8C1E00C614F4 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA62028FF8C1E00C614F4 /* HealthStore.swift */; };
+		6F8FA62228FF8C1E00C614F4 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FA62028FF8C1E00C614F4 /* HealthStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F720B30290456C10033CD99 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		6F8FA5C028FF8B2200C614F4 /* morning-routine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "morning-routine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8FA5C328FF8B2200C614F4 /* morning_routineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morning_routineApp.swift; sourceTree = "<group>"; };
 		6F8FA5C528FF8B2200C614F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		6F8FA60228FF8B2900C614F4 /* morning-routine Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "morning-routine Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8FA60628FF8B2900C614F4 /* morning_routine_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morning_routine_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6F8FA60828FF8B2900C614F4 /* morning_routine_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morning_routine_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F8FA61F28FF8B8A00C614F4 /* morning-routine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "morning-routine.entitlements"; sourceTree = "<group>"; };
+		6F8FA62028FF8C1E00C614F4 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,8 +180,11 @@
 		6F8FA5C228FF8B2200C614F4 /* morning-routine */ = {
 			isa = PBXGroup;
 			children = (
+				6F8FA61F28FF8B8A00C614F4 /* morning-routine.entitlements */,
 				6F8FA5C328FF8B2200C614F4 /* morning_routineApp.swift */,
 				6F8FA5C528FF8B2200C614F4 /* ContentView.swift */,
+				6F720B30290456C10033CD99 /* TimerView.swift */,
+				6F8FA62028FF8C1E00C614F4 /* HealthStore.swift */,
 				6F8FA5C728FF8B2700C614F4 /* Assets.xcassets */,
 				6F8FA5C928FF8B2700C614F4 /* Preview Content */,
 			);
@@ -466,6 +475,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F8FA5C628FF8B2200C614F4 /* ContentView.swift in Sources */,
+				6F8FA62128FF8C1E00C614F4 /* HealthStore.swift in Sources */,
+				6F720B31290456C10033CD99 /* TimerView.swift in Sources */,
 				6F8FA5C428FF8B2200C614F4 /* morning_routineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F8FA5EE28FF8B2700C614F4 /* ContentView.swift in Sources */,
+				6F8FA62228FF8C1E00C614F4 /* HealthStore.swift in Sources */,
 				6F8FA5EC28FF8B2700C614F4 /* morning_routineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,13 +732,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "morning-routine/morning-routine.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"morning-routine/Preview Content\"";
-				DEVELOPMENT_TEAM = MPKWG72TH9;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "morning-routine";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Need access to health data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need access to health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -753,13 +769,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "morning-routine/morning-routine.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"morning-routine/Preview Content\"";
-				DEVELOPMENT_TEAM = MPKWG72TH9;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "morning-routine";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Need access to health data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need access to health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
